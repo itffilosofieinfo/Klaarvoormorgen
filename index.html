@@ -27,6 +27,9 @@
                 border-radius:12px; border:1px solid #E6E0D8; margin-bottom:8px; }
   .video-wrap iframe { position:absolute; top:0; left:0; width:100%; height:100%; border:0; }
   .video-caption { color:var(--muted); font-size:15px; margin:0 0 0; }
+  .form-wrap { background:#fff; border:1px solid #E6E0D8; border-radius:12px;
+               padding:20px 20px 4px; margin-bottom:8px; }
+  .form-wrap iframe { display:block; }
   footer { margin-top:48px; border-top:1px solid #E6E0D8; padding-top:16px;
            color:var(--muted); font-size:14px; }
 </style>
@@ -72,6 +75,21 @@
     <iframe src="https://www.youtube.com/embed/MXEInc6Zy7Q" title="Bonusvideo" allowfullscreen></iframe>
   </div>
   <p class="video-caption">Een grappig filmpje dat precies laat zien waar we het over hadden: AI kan veel, maar lang niet alles goed. Leuke afsluiter na de workshop.</p>
+
+  <h2>Hoe vond je de avond?</h2>
+  <p class="lead" style="margin-bottom:16px;">Twee minuten, eerlijk antwoord graag — dat helpt ons de volgende editie beter te maken.</p>
+  <div class="form-wrap">
+    <iframe data-tally-src="https://tally.so/embed/GxGL4o?alignLeft=1&amp;hideTitle=1&amp;transparentBackground=1&amp;dynamicHeight=1" loading="lazy" width="100%" height="400" frameborder="0" marginheight="0" marginwidth="0" title="Klaar voor morgen evaluatie"></iframe>
+  </div>
+  <script>
+    (function(d, s, id){
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) { window.Tally && window.Tally.loadEmbeds(); return; }
+      js = d.createElement(s); js.id = id; js.src = "https://tally.so/widgets/embed.js";
+      js.onload = function(){ window.Tally && window.Tally.loadEmbeds(); };
+      fjs.parentNode.insertBefore(js, fjs);
+    })(document, "script", "tally-js");
+  </script>
 
   <h2>Voordat je begint</h2>
   <ul>
